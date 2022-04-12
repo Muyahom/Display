@@ -22,6 +22,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(0, 0, 0, 191);</string>
+  </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
   </property>
@@ -50,6 +53,9 @@
       <pointsize>18</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Guest</string>
     </property>
@@ -70,7 +76,7 @@
      </font>
     </property>
     <property name="text">
-     <string>CHECK_IN</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;CHECK_IN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -90,6 +96,9 @@
       <family>BM Jua</family>
       <pointsize>18</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Host</string>
@@ -120,8 +129,8 @@
    <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>130</y>
+      <x>330</x>
+      <y>160</y>
       <width>120</width>
       <height>80</height>
      </rect>
