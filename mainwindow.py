@@ -19,6 +19,7 @@ from PyQt5.QtCore import QTimer,Qt, QTime
 import time
 
 
+
 form_main = uic.loadUiType("maindisplay.ui")[0] #ui파일 가져오기
 
 class MainWindow(QMainWindow,QWidget, form_main): #MainWindow 클래스 정의

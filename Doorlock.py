@@ -15,7 +15,7 @@ password =""
 while len(door_password) != 5 : # check password
     print("비밀번호는 4자리만 입력하여주시기 바랍니다.")
     door_password = ("초기 패스워드 재입력(5자리) : ")
-    
+    door_password = input("초기 패스워드(5자리) : ")
 
 def command_args(pad): #input value and action
     global password

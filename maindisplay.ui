@@ -95,37 +95,36 @@
      <string>Host</string>
     </property>
    </widget>
-   <widget class="QDateTimeEdit" name="dateTimeEdit">
+   <widget class="QLabel" name="Layout">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>100</y>
-      <width>491</width>
-      <height>171</height>
+      <x>210</x>
+      <y>140</y>
+      <width>371</width>
+      <height>121</height>
      </rect>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+    <property name="font">
+     <font>
+      <family>BM Jua</family>
+      <pointsize>24</pointsize>
+     </font>
     </property>
-    <property name="buttonSymbols">
-     <enum>QAbstractSpinBox::NoButtons</enum>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
     </property>
-    <property name="dateTime">
-     <datetime>
-      <hour>0</hour>
-      <minute>0</minute>
-      <second>0</second>
-      <year>2022</year>
-      <month>4</month>
-      <day>4</day>
-     </datetime>
+    <property name="text">
+     <string/>
     </property>
-    <property name="date">
-     <date>
-      <year>2022</year>
-      <month>4</month>
-      <day>4</day>
-     </date>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>130</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -141,10 +140,13 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="myres.qrc"/>
+ </resources>
  <connections/>
  <slots>
   <slot>guest()</slot>
   <slot>host()</slot>
+  <slot>Digital()</slot>
  </slots>
 </ui>
