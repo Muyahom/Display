@@ -23,7 +23,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgba(0, 0, 0, 191);</string>
+   <string notr="true">background-color: rgb(67, 170, 199);</string>
   </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
@@ -35,7 +35,7 @@
    <bool>false</bool>
   </property>
   <property name="tabShape">
-   <enum>QTabWidget::Rounded</enum>
+   <enum>QTabWidget::Triangular</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btnGuest">
@@ -53,20 +53,27 @@
       <pointsize>18</pointsize>
      </font>
     </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 10);</string>
     </property>
     <property name="text">
      <string>Guest</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>20</y>
-      <width>271</width>
-      <height>71</height>
+      <x>190</x>
+      <y>90</y>
+      <width>391</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="font">
@@ -95,6 +102,8 @@
      <font>
       <family>BM Jua</family>
       <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -103,37 +112,11 @@
     <property name="text">
      <string>Host</string>
     </property>
-   </widget>
-   <widget class="QLabel" name="Layout">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>140</y>
-      <width>371</width>
-      <height>121</height>
-     </rect>
+    <property name="default">
+     <bool>false</bool>
     </property>
-    <property name="font">
-     <font>
-      <family>BM Jua</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>160</y>
-      <width>120</width>
-      <height>80</height>
-     </rect>
+    <property name="flat">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

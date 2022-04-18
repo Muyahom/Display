@@ -119,13 +119,15 @@ class Host(QDialog,QWidget,form_thirdwindow):
         self.close()
     
     def action_confirm(self):
+        password = self.MainWindow_2.text()
         if len(password) == 4 and door_password == password: # if password 5 and matched suc activate
             print("Success")
             password = ""
+            self.MainWindow_2.setText("")
         elif len(password) == 4 and door_password != password: # if password is not matched fail activate
             print("Fail")
             password =""
-
+            self.MainWindow_2.setText("")
     
 
 if __name__ == "__main__":

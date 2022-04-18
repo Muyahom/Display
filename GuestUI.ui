@@ -14,7 +14,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 0, 0);</string>
+   <string notr="true">background-color: rgb(67, 170, 199);</string>
   </property>
   <widget class="QCalendarWidget" name="calendarWidget">
    <property name="geometry">
@@ -26,7 +26,9 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(102, 204, 255);</string>
+    <string notr="true">background-color: rgb(255, 255, 255);
+alternate-background-color: rgba(102, 102, 255, 138);
+color: rgb(0, 0, 0);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -66,12 +68,12 @@
    <property name="font">
     <font>
      <family>BM Jua</family>
-     <pointsize>36</pointsize>
+     <pointsize>24</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);</string>
+    <string notr="true">color: rgb(255, 255, 255);
+</string>
    </property>
    <property name="text">
     <string>출입 불가</string>
@@ -98,6 +100,9 @@ background-color: rgb(255, 255, 255);</string>
    <property name="text">
     <string>Back</string>
    </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btnAccept">
    <property name="geometry">
@@ -114,18 +119,18 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="WindowText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Button">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -141,36 +146,36 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="Text">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="ButtonText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -179,18 +184,18 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="WindowText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Button">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -206,36 +211,36 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="Text">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="ButtonText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -244,18 +249,18 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="WindowText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Button">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -271,36 +276,36 @@ background-color: rgb(255, 255, 255);</string>
       <colorrole role="Text">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="ButtonText">
        <brush brushstyle="SolidPattern">
         <color alpha="255">
-         <red>0</red>
-         <green>0</green>
-         <blue>0</blue>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Base">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
       <colorrole role="Window">
        <brush brushstyle="SolidPattern">
-        <color alpha="255">
-         <red>255</red>
-         <green>255</green>
-         <blue>255</blue>
+        <color alpha="196">
+         <red>253</red>
+         <green>128</green>
+         <blue>8</blue>
         </color>
        </brush>
       </colorrole>
@@ -310,12 +315,13 @@ background-color: rgb(255, 255, 255);</string>
    <property name="font">
     <font>
      <family>BM Jua</family>
-     <pointsize>36</pointsize>
+     <pointsize>24</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);</string>
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(253, 128, 8, 196);
+</string>
    </property>
    <property name="text">
     <string>출입 가능</string>
