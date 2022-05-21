@@ -13,25 +13,32 @@ from PyQt5 import uic
 from PyQt5 import QtCore
 from GuestUI import Form
 from Host import Host
-from PyQt5.QtGui import QFont
-from PyQt5.QtCore import QDateTime, QTimer
-from PyQt5.QtCore import QTimer,Qt, QTime
-import time
-
+from PyQt5.QtGui import QFont, QPixmap
+from PyQt5.QtCore import Qt
 
 form_main = uic.loadUiType("maindisplay.ui")[0] #ui파일 가져오기
-
 class MainWindow(QMainWindow,QWidget, form_main): #MainWindow 클래스 정의
     def __init__(self):
         super().__init__()
         self.initUI()
+        self.loadimage()   
         self.show()
         
+    def loadimage(self):
+        self.layout = QVBoxLayout()
+        
+        self.pixmap = QPixmap("tlqkf.jpeg")
+        self.pixmap.scaled(50,50)
+        self.qwer = QLabel(self)
+        self.qwer.setPixmap(self.pixmap)
+        self.qwer.setGeometry(QtCore.QRect(270, 110, 251, 231))
+    
         
     def initUI(self):
         self.setupUi(self)
         self.btnGuest.clicked.connect(self.move_to_guest)
         self.btnHost.clicked.connect(self.move_to_host)
+    
        
     def move_to_guest(self):
         self.close()#hide main window

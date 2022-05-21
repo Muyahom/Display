@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>480</height>
    </rect>
   </property>
   <property name="font">
@@ -41,7 +41,7 @@
    <widget class="QPushButton" name="btnGuest">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>350</y>
       <width>171</width>
       <height>111</height>
@@ -57,7 +57,7 @@
      <enum>Qt::TabFocus</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
+     <string notr="true">color: rgb(0, 0, 0);
 border-color: rgb(255, 255, 10);</string>
     </property>
     <property name="text">
@@ -67,32 +67,10 @@ border-color: rgb(255, 255, 10);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>90</y>
-      <width>391</width>
-      <height>211</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>BM Jua</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;CHECK_IN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btnHost">
     <property name="geometry">
      <rect>
-      <x>490</x>
+      <x>520</x>
       <y>350</y>
       <width>171</width>
       <height>111</height>
@@ -107,7 +85,7 @@ border-color: rgb(255, 255, 10);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Host</string>
@@ -117,6 +95,19 @@ border-color: rgb(255, 255, 10);</string>
     </property>
     <property name="flat">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qwer">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>251</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

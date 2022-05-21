@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>550</width>
-    <height>561</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,11 +19,11 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>
- 
+
    <widget class="QPushButton" name="btn1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>260</x>
       <y>140</y>
       <width>71</width>
       <height>71</height>
@@ -48,7 +48,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn2">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>350</x>
       <y>140</y>
       <width>71</width>
       <height>71</height>
@@ -72,7 +72,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn3">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>440</x>
       <y>140</y>
       <width>71</width>
       <height>71</height>
@@ -96,7 +96,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn6">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>440</x>
       <y>230</y>
       <width>71</width>
       <height>71</height>
@@ -121,7 +121,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>280</x>
       <y>230</y>
       <width>71</width>
       <height>71</height>
@@ -145,7 +145,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn5">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>350</x>
       <y>230</y>
       <width>71</width>
       <height>71</height>
@@ -169,7 +169,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn9">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>440</x>
       <y>320</y>
       <width>71</width>
       <height>71</height>
@@ -193,7 +193,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn7">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>260</x>
       <y>320</y>
       <width>71</width>
       <height>71</height>
@@ -217,7 +217,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn8">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>350</x>
       <y>320</y>
       <width>71</width>
       <height>71</height>
@@ -241,7 +241,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="cancel">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>440</x>
       <y>400</y>
       <width>71</width>
       <height>71</height>
@@ -265,7 +265,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="confirm">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>260</x>
       <y>400</y>
       <width>71</width>
       <height>71</height>
@@ -289,7 +289,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn0">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>350</x>
       <y>400</y>
       <width>71</width>
       <height>71</height>
@@ -313,7 +313,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QLabel" name="textlabel">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>320</x>
       <y>30</y>
       <width>151</width>
       <height>31</height>
@@ -335,7 +335,7 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QLabel" name="MainWindow_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>260</x>
       <y>90</y>
       <width>251</width>
       <height>41</height>
@@ -389,7 +389,7 @@ background-color: rgb(255, 255, 255);</string>
      <height>24</height>
     </rect>
    </property>
-  
+
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
