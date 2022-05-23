@@ -42,7 +42,7 @@ class Host(QDialog,QWidget,form_thirdwindow):
         self.cancel.setText(_translate("MainWindow", "취소"))
         self.confirm.setText(_translate("MainWindow", "확인"))
         self.btn0.setText(_translate("MainWindow", "0"))
-        self.textlabel.setText(_translate("MainWindow", "Check_IN"))
+        self.textlabel.setText(_translate("MainWindow", "Host"))
         self.btnBack2.setText(_translate("MainWindow", "Back"))
         
         # 버튼 액션 추가

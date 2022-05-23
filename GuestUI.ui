@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>480</height>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>80</y>
+     <y>40</y>
      <width>621</width>
      <height>191</height>
     </rect>
@@ -34,16 +34,16 @@ color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>20</y>
-     <width>91</width>
-     <height>31</height>
+     <x>320</x>
+     <y>-10</y>
+     <width>161</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>BM Jua</family>
-     <pointsize>36</pointsize>
+     <family>Brush Script MT</family>
+     <pointsize>35</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -60,9 +60,9 @@ color: rgb(0, 0, 0);</string>
    <property name="geometry">
     <rect>
      <x>490</x>
-     <y>290</y>
+     <y>240</y>
      <width>200</width>
-     <height>100</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
@@ -82,8 +82,8 @@ color: rgb(0, 0, 0);</string>
   <widget class="QPushButton" name="btnBack">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>400</y>
+     <x>580</x>
+     <y>320</y>
      <width>141</width>
      <height>61</height>
     </rect>
@@ -108,9 +108,9 @@ color: rgb(0, 0, 0);</string>
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>290</y>
+     <y>240</y>
      <width>200</width>
-     <height>101</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="palette">
@@ -327,6 +327,11 @@ background-color: rgba(253, 128, 8, 196);
     <string>출입 가능</string>
    </property>
   </widget>
+  <zorder>label</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>btnBanned</zorder>
+  <zorder>btnBack</zorder>
+  <zorder>btnAccept</zorder>
  </widget>
  <resources/>
  <connections/>

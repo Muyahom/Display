@@ -21,17 +21,8 @@ class MainWindow(QMainWindow,QWidget, form_main): #MainWindow 클래스 정의
     def __init__(self):
         super().__init__()
         self.initUI()
-        self.loadimage()   
         self.show()
         
-    def loadimage(self):
-        self.layout = QVBoxLayout()
-        
-        self.pixmap = QPixmap("tlqkf.jpeg")
-        self.pixmap.scaled(50,50)
-        self.qwer = QLabel(self)
-        self.qwer.setPixmap(self.pixmap)
-        self.qwer.setGeometry(QtCore.QRect(270, 110, 251, 231))
     
         
     def initUI(self):

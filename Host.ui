@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>480</height>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,7 +24,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>140</y>
+      <y>90</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -49,7 +49,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>140</y>
+      <y>90</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -73,7 +73,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>140</y>
+      <y>90</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -97,7 +97,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>230</y>
+      <y>180</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -121,8 +121,8 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QPushButton" name="btn4">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>230</y>
+      <x>260</x>
+      <y>180</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -146,7 +146,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>230</y>
+      <y>180</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -170,7 +170,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>320</y>
+      <y>270</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -194,7 +194,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>320</y>
+      <y>270</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -218,7 +218,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>320</y>
+      <y>270</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -242,7 +242,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>400</y>
+      <y>330</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -266,7 +266,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>400</y>
+      <y>330</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -290,7 +290,7 @@ border-color: rgb(255, 255, 10);</string>
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>400</y>
+      <y>330</y>
       <width>71</width>
       <height>71</height>
      </rect>
@@ -313,15 +313,15 @@ border-color: rgb(255, 255, 10);</string>
    <widget class="QLabel" name="textlabel">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>30</y>
+      <x>362</x>
+      <y>10</y>
       <width>151</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>BM Jua</family>
+      <family>Brush Script MT</family>
       <pointsize>36</pointsize>
      </font>
     </property>
@@ -329,16 +329,16 @@ border-color: rgb(255, 255, 10);</string>
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Check_IN</string>
+     <string>Host</string>
     </property>
    </widget>
    <widget class="QLabel" name="MainWindow_2">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>90</y>
+      <y>50</y>
       <width>251</width>
-      <height>41</height>
+      <height>30</height>
      </rect>
     </property>
     <property name="autoFillBackground">
