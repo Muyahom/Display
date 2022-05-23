@@ -43,7 +43,7 @@ color: rgb(0, 0, 0);</string>
    <property name="font">
     <font>
      <family>Brush Script MT</family>
-     <pointsize>35</pointsize>
+     <pointsize>24</pointsize>
     </font>
    </property>
    <property name="styleSheet">
